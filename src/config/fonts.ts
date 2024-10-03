@@ -1,4 +1,8 @@
-import { Fira_Code as FontMono, Inter as FontSans, Work_Sans } from "next/font/google";
+import {
+  Fira_Code as FontMono,
+  Inter as FontSans,
+  Work_Sans,
+} from "next/font/google";
 import localFont from "next/font/local";
 
 export const fontSans = FontSans({
@@ -19,4 +23,5 @@ export const fontMono = FontMono({
 // Font files can be colocated inside of `pages`
 export const fontCenturyGothicPro = localFont({
   src: "./../assets/fonts/CenturyGothicBold.ttf",
+  variable: "--font-century",
 });

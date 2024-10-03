@@ -7,8 +7,8 @@ import { Link } from "@nextui-org/link";
 
 const HeroSection = () => {
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 w-full">
-      <div className="flex pl-0 md:pl-20 justify-center items-start flex-col ">
+    <div className="grid px-12 md:grid-cols-2 grid-cols-1 w-full">
+      <div className="flex justify-center items-start flex-col ">
         <h1 className={title({ color: "primary" })}>
           <p className="inline">Grow </p>
           <p className="inline bg-[#dad7cd] mb-2 dark:bg-[#588157]">Together</p>
